@@ -22,6 +22,6 @@ public class WelcomActivity extends SmartActivity {
 				+ "/SmartAndroid/", "demo.zip");
 		at.copy("demo.zip", Environment.getExternalStorageDirectory()
 				+ "/SmartAndroid/", "demo2.zip");
-		CountJump(2000, HomeActivity.class, true);
+		//CountJump(2000, HomeActivity.class, true);
 	}
 }
